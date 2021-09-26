@@ -3,21 +3,22 @@ import Card from '../Card/Card';
 import './AllDancers.css'
 
 
-const AllDancers = () => {
+const AllDancers = (props) => {
  const [users,setUsers]=useState([])
+
   
   useEffect(()=>{
     fetch("./fakeData.json")
     .then(res=>res.json())
     .then(data=>setUsers(data))
   },[]);
-  const handleAddToCart=()=>{
-    console.log('yes its touch');
-  }
+
   return (
     <div className="dancers-container" >
       {
-      users.map((user)=> <Card user={user} ></Card>)
+      users.map((user)=> 
+      <Card eventHandler={props.eventHandler} user={user} ></Card>)
+      
     }
     
     </div>
