@@ -1,29 +1,22 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
+import Card from '../Card/Card';
+import './AllDancers.css'
 
-const AllDancers = (props) => {
-  console.log(props.user);
 
-  const {name,age,country,job,worth,img}=props.user
+const AllDancers = () => {
+ const [users,setUsers]=useState([])
+  
+  useEffect(()=>{
+    fetch("./fakeData.json")
+    .then(res=>res.json())
+    .then(data=>setUsers(data))
+  },[]);
   return (
     <div className="dancers-container" >
-     <div class="row  g-4 ">
-  <div class="col-md-4">
-    <div class="card ">
-      <img src={img} class="card-img-top center" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Name:{name}</h5>
-        <p class="card-text">Age:{age}</p>
-        <p class="card-text">Country:{country}</p>
-        <p class="card-text">Job:{job}</p>
-        <p class="card-text">Net Worth:{worth}</p>
-        
-      </div>
-    </div>
-  </div>
-  
-  
-  
-</div>
+      {
+      users.map((user)=> <Card user={user} ></Card>)
+    }
+    
     </div>
   );
 };

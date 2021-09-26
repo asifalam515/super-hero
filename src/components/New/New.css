@@ -1,0 +1,4 @@
+.new-div{
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+}
