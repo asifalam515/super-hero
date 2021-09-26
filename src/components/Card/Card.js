@@ -6,7 +6,7 @@ const Card = (props) => {
 // card form bootstrap
 
 <div className="card m-3 bg-light text-dark" >
-  <img src={img} className="card-img-top m-2 img-fluid" alt=''/>
+  <img src={img} className="card-img-top m-2 img-fluid " alt=''/>
   <div className="card-body">
     <h5 className="card-title">Name:{name}</h5>
     <p className="card-text">Age:{age}</p>

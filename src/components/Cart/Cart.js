@@ -10,6 +10,7 @@ total += person.worth;
       <h3 className="fas fa-cart-arrow-down">Add to cart </h3>
       <h4>Total added:{props.cart.length}</h4>
       <h4>Total Charge:${total}</h4>
+      
  <ul>
    <Name cart={props.cart} ></Name>
  </ul>
