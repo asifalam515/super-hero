@@ -6,34 +6,22 @@ const AllDancers = (props) => {
   const {name,age,country,job,worth,img}=props.user
   return (
     <div className="dancers-container" >
-     <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="{}" class="card-img-top" alt="..."/>
+     <div class="row  g-4 ">
+  <div class="col-md-4">
+    <div class="card ">
+      <img src={img} class="card-img-top center" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Name:{name}</h5>
+        <p class="card-text">Age:{age}</p>
+        <p class="card-text">Country:{country}</p>
+        <p class="card-text">Job:{job}</p>
+        <p class="card-text">Net Worth:{worth}</p>
+        
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
+  
+  
   
 </div>
     </div>
