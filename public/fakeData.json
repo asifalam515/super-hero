@@ -1,0 +1,83 @@
+[
+  {
+    "Id": 1,
+    "name": "Hero alom",
+    "age": 34,
+    "job": "Hip Hop Dancer",
+    "country": "bangladesh",
+    "worth": 50,
+    "img": "https://img-for-dance-club.netlify.app/hero.png"
+  },
+  {
+    "Id": 2,
+    "name": "Sakib khan",
+    "age": 42,
+    "job": "Dancer",
+    "country": "bangladesh",
+    "worth": 5000,
+    "img": "https://img-for-dance-club.netlify.app/sakib.png"
+  },
+  {
+    "Id": 3,
+    "name": "Bappi",
+    "age": 23,
+    "job": "Dancer",
+    "country": "bangladesh",
+    "worth": 5,
+    "img": "https://img-for-dance-club.netlify.app/bappi.png"
+  },
+  {
+    "Id": 4,
+    "name": "Selena Gomez",
+    "age": 25,
+    "job": "Folk Dancer",
+    "country": "USA",
+    "worth": 500000,
+    "img": "https://img-for-dance-club.netlify.app/selena.png"
+  },
+  {
+    "Id": 5,
+    "name": "Taylor Swift",
+    "age": 34,
+    "job": "Jazz Dancer",
+    "country": "USA",
+    "worth": 50000,
+    "img": "https://img-for-dance-club.netlify.app/taylor.png"
+  },
+  {
+    "Id": 6,
+    "name": "camila cabello",
+    "age": 20,
+    "job": "Jazz Dancer",
+    "country": "USA",
+    "worth": 50000,
+    "img": "https://img-for-dance-club.netlify.app/camila.png"
+  },
+  {
+    "Id": 7,
+    "name": "Shuvo",
+    "age": 35,
+    "job": "Dacner",
+    "country": "bangladesh",
+    "worth": 5000,
+    "img": "https://img-for-dance-club.netlify.app/shuvo.png"
+  },
+  {
+    "Id": 8,
+    "name": "Dev",
+    "age": 33,
+    "job": "Hip Hop",
+    "country": "India",
+    "worth": 50000,
+    "img": "https://img-for-dance-club.netlify.app/dev.png"
+  },
+  {
+    "Id": 9,
+    "name": "Justin Bieber",
+    "age": 26,
+    "job": "Dancer",
+    "country": "USA",
+    "worth": 500000,
+    "img": "https://img-for-dance-club.netlify.app/justin.png"
+  }
+]

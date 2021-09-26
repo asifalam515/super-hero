@@ -1,0 +1,5 @@
+.left-side{
+  border: 1px dotted black;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
