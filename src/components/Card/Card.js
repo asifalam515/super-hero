@@ -13,8 +13,10 @@ const Card = (props) => {
     <p class="card-text">Age:{age}</p>
     <p class="card-text">Country:{country}</p>
     <p class="card-text">Charge:{worth}</p>
-    <p class="card-text">Age:{age}</p>
-    <button className="btn btn-primary">Add to club</button>
+    <p class="card-text">Age:{age}</p> <br />
+    <h3 className="fab fa-twitter"></h3>
+    <br />
+    <button className="btn btn-primary ">Add to club</button>
     
   </div>
 </div>

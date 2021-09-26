@@ -11,6 +11,9 @@ const AllDancers = () => {
     .then(res=>res.json())
     .then(data=>setUsers(data))
   },[]);
+  const handleAddToCart=()=>{
+    console.log('yes its touch');
+  }
   return (
     <div className="dancers-container" >
       {
